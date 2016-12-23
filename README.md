@@ -3,4 +3,4 @@ Matrix digital rain, Matrix code or sometimes green rain, is the computer code f
 
 Wrote 3 versions of Matrix Digital Rain in Shell | Bash, running on cmd.
 
-Also wrote a jQuery UI Framework Based runnable demo with graphic enhancements using pixel perfect CSS webkits.
+Also wrote a jQuery UI Framework Based runnable demo with graphic enhancements using pixel perfect CSS Framework web-kits.
