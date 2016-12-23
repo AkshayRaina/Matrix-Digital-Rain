@@ -1,0 +1,73 @@
+body {
+  background-color: black; 
+}
+
+
+.digital-rain {
+   position: relative;
+   top -50px;
+   word-wrap: break-word;
+   float: left;
+   width: 10px;
+   color: green;
+   line-height: 10px;
+  font-size: 15px;
+}
+
+.light {
+ color: lightgreen; 
+}
+
+.speed1 {
+  animation: rain 8s linear infinite;
+  -moz-animation: rain 8s linear infinite; /* Firefox */
+  -webkit-animation: rain 8s linear infinite; /* Safari and Chrome*/
+  -o-animation: rain 8s linear infinite; /* Opera */
+}
+.speed2 {
+  animation: rain 6s linear infinite;
+  -moz-animation: rain 6s linear infinite; /* Firefox */
+  -webkit-animation: rain 6s linear infinite; /* Safari and Chrome*/
+  -o-animation: rain 6s linear infinite; /* Opera */
+}
+.speed3 {
+  animation: rain 4s linear infinite;
+  -moz-animation: rain 4s linear infinite; /* Firefox */
+  -webkit-animation: rain 4s linear infinite; /* Safari and Chrome*/
+  -o-animation: rain 4s linear infinite; /* Opera */
+}
+.speed4 {
+  animation: rain 3s linear infinite;
+  -moz-animation: rain 3s linear infinite; /* Firefox */
+  -webkit-animation: rain 3s linear infinite; /* Safari and Chrome*/
+  -o-animation: rain 3s infinite; /* Opera */
+
+}
+.speed5 {
+  animation: rain 2s linear infinite;
+  -moz-animation: rain 2s linear infinite; /* Firefox */
+  -webkit-animation: rain 2s linear infinite; /* Safari and Chrome*/
+  -o-animation: rain 2s linear infinite; /* Opera */
+}
+
+
+@keyframes rain {
+  from {top: -350px; }
+  to {top: 350px;}
+}
+
+@-moz-keyframes rain {
+  from {top: -350px;}
+  to {top: 350px;}
+}
+
+@-webkit-keyframes rain {
+  from {top: -350px; }
+  to {top: 350px; }
+}
+
+@-o-keyframes rain {
+  from {top: -350px;}
+  to {top: 350px; }
+}
+
